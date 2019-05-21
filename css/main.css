@@ -245,7 +245,7 @@ header .search-area ul li {
 
 #content-area .widget-box .head {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding: 0 10px;
 }
@@ -311,6 +311,11 @@ header .search-area ul li {
   padding: 0 15px;
 }
 
+#content-area .main-area .widget-box.post .head .flex-container {
+  display: flex;
+  align-items: center;
+}
+
 #content-area .main-area .widget-box.post .user-img {
   display: inline-block;
   margin-right: 10px;
@@ -351,3 +356,27 @@ header .search-area ul li {
 #content-area .main-area .widget-box.post .post-content img {
   width: 100%;
 }
+
+#content-area .main-area .widget-box.post .post-content .post-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+#content-area .main-area .widget-box.post .post-content .post-options .flex-container {
+  display: flex;
+}
+
+#content-area .main-area .widget-box.post .post-content .post-options .flex-container span:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+#content-area .main-area .widget-box.post .post-content .post-options .fas {
+  color: #c2c2c2;
+  font-size: 20px;
+}
+
